@@ -59,6 +59,8 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+viewCart();
 addToCart('banana');
 addToCart('mhlo');
 total();
+viewCart();
