@@ -71,7 +71,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  if (cardNumber === null) {
+  if (cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you")
   }
   else {
