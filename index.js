@@ -75,8 +75,9 @@ function placeOrder(cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you")
   }
   else {
-    cart.length = 0;
-    console.log(``)
+    var total = total();
+  cart.length = 0;
+    console.log(`Your total cost is ${total} , which will be charged to the card ${carNumber}.`)
   }
 }
 viewCart();
