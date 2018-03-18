@@ -75,11 +75,11 @@ function placeOrder(cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you")
   }
   else {
-    var total = total();
     cart.length = 0;
-    console.log(`Your total cost is ${total} , which will be charged to the card ${carNumber}.`)
+    console.log(`Your total cost is ${mytotal} , which will be charged to the card ${carNumber}.`)
   }
 }
+  var mytotal = total();
 viewCart();
 addToCart('banana');
 addToCart('mhlo');
