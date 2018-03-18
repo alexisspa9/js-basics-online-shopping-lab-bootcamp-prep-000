@@ -44,3 +44,5 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 addToCart('banana');
+addToCart('mhlo');
+total();
