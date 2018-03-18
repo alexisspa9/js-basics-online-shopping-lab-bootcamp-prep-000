@@ -26,6 +26,7 @@ function viewCart() {
   // write your code here
   var cartItems = [];
   var i = 0;
+  var lastOne = cart.length - 1;
   if (cart.length > 0) {
     
     while(cart.length > i) {
