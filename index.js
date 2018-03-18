@@ -62,7 +62,7 @@ function removeFromCart(item) {
       delete cart[i];
     }
     else{
-      console.log()
+      console.log('That item is not in your cart.')
     }
    i++;
   }
@@ -76,3 +76,6 @@ addToCart('banana');
 addToCart('mhlo');
 total();
 viewCart();
+removeFromCart('axladi');
+removeFromCart('banana');
+console.log(cart);
