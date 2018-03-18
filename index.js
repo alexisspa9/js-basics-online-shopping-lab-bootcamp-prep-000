@@ -58,8 +58,9 @@ function removeFromCart(item) {
   var i = 0;
   while (cart.length > i) {
     var currentItemName = cart[i].itemName;
-    if(currentItemName ==- item) {
-      delete cart[i].itemName;
+    if(currentItemName === item) {
+
+
     }
     else{
       console.log('That item is not in your cart.')
