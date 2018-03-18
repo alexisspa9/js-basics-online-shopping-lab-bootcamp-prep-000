@@ -18,7 +18,6 @@ function addToCart(item) {
  };
  cart.push(cartItem);
  console.log(`${cartItem.itemName} has been added to your cart.`)
- console.log(cart);
 }
 
 function viewCart() {
