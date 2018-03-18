@@ -35,7 +35,7 @@ function viewCart() {
     }
     cartItems.pop();
     
-      console.log(`In your cart, you have ${cartItems}, and ${cart[-1].itemName} at ${cart[-1].itemPrice}.`);
+      console.log(`In your cart, you have ${cartItems}, and ${cart[lastOne].itemName} at ${cart[lastOne].itemPrice}.`);
   }
   else {
     console.log('Your shopping cart is empty!')
