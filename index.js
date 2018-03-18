@@ -25,7 +25,19 @@ console.log(cartItem);
 function viewCart() {
   // write your code here
   var cartItems = [];
-  console.log(`In your cart, you have ${cartItems}.`);
+  var i = 0;
+  if (cart.length > 0) {
+    
+    while(cart.length > i) {
+      cartItems.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+      i++;
+    }
+    
+      console.log(`In your cart, you have ${cartItems}.`);
+  }
+  else {
+    console.log('Ypur shopping cart is empty!')
+  }
 }
 
 function total() {
