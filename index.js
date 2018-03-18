@@ -32,11 +32,12 @@ function viewCart() {
       cartItems.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
       i++;
     }
+    cartItems.pop();
     
       console.log(`In your cart, you have ${cartItems}.`);
   }
   else {
-    console.log('Ypur shopping cart is empty!')
+    console.log('Your shopping cart is empty!')
   }
 }
 
@@ -47,7 +48,6 @@ function total() {
   while(cart.length > i){
     total += cart[i].itemPrice;
     i++;
-    
   }
   console.log(total);
 }
