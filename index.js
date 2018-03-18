@@ -24,6 +24,7 @@ console.log(cartItem);
 
 function viewCart() {
   // write your code here
+  console.log(`In your cart, you have ${cartItems}.`);
 }
 
 function total() {
