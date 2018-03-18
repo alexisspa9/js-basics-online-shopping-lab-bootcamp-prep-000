@@ -76,7 +76,7 @@ function placeOrder(cardNumber) {
   }
   else {
     var total = total();
-  cart.length = 0;
+    cart.length = 0;
     console.log(`Your total cost is ${total} , which will be charged to the card ${carNumber}.`)
   }
 }
@@ -88,3 +88,5 @@ viewCart();
 removeFromCart('axladi');
 removeFromCart('banana');
 console.log(cart);
+placeOrder();
+placeOrder(1123123123);
